@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Yuvan Shakthi S — Space Gods Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+
+<!-- ══════════ STARFIELD CANVAS ══════════ -->
+<canvas id="stars"></canvas>
+
+<!-- ══════════ CUSTOM CURSOR ══════════ -->
+<div id="cur-ring"></div>
+<div id="cur-dot"></div>
+
+<!-- ══════════ NAVBAR ══════════ -->
+<nav id="nav">
+  <a href="#hero" class="logo">YS<span style="color:var(--magenta)">✦</span></a>
+  <button class="hbg" id="hbg"><span></span><span></span><span></span></button>
+  <ul class="nav-ul" id="navul">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button id="thm">☀ LIGHT</button>
+</nav>
+
+<!-- ══════════ HERO ══════════ -->
+<section id="hero">
+  <div class="neb n1"></div>
+  <div class="neb n2"></div>
+  <div class="neb n3"></div>
+  <div class="sun" id="sun"></div>
+  <div class="saturn"></div>
+  <div class="pluto"></div>
+
+  <div class="hero-wrap">
+    <div class="porbit">
+      <div class="pring2"></div>
+      <div class="pring"></div>
+      <div class="odot"></div>
+      <div class="odot odot2"></div>
+      <div class="pfimg">🧑‍💻</div>
+    </div>
+    <h1 class="hero-name">Yuvan Shakthi S</h1>
+    <p class="hero-tag">Student &nbsp;|&nbsp; Future Data Analyst &nbsp;|&nbsp; Technology Enthusiast<span class="tcur"></span></p>
+    <div class="ctas">
+      <a href="#projects" class="btn btnp">⚡ View Projects</a>
+      <a href="#contact"  class="btn btns">✦ Contact Me</a>
+    </div>
+  </div>
+
+  <div class="scrollcue">
+    <span>SCROLL</span>
+    <div class="scrarr"></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════ ABOUT ══════════ -->
+<section id="about" class="section">
+  <h2 class="sec-title"><span>About Me</span></h2>
+  <div class="about-g">
+    <div class="rev-l">
+      <div class="about-txt">
+        <p>Hey, cosmic traveller! I'm <strong>Yuvan Shakthi S</strong> — a passionate student navigating the infinite universe of <strong>data, technology, and finance</strong>.</p>
+        <p>I believe data is the new dark matter — invisible yet shaping everything. My mission: transform raw numbers into <strong>galaxies of insight</strong> that drive real decisions.</p>
+        <p>When I'm not decoding datasets, you'll find me exploring <strong>financial markets</strong>, crafting web experiences, or theorising about the next leap in technology.</p>
+        <div class="chips">
+          <span class="chip">📊 Data Analysis</span>
+          <span class="chip">💻 Coding</span>
+          <span class="chip">📈 Finance</span>
+          <span class="chip">🚀 Technology</span>
+        </div>
+      </div>
+    </div>
+    <div class="rev-r">
+      <div class="sbars" id="sbars">
+        <div class="sbar-item">
+          <label><span>Python</span><span>88%</span></label>
+          <div class="sbar-track"><div class="sbar-fill sc" data-w="88"></div></div>
+        </div>
+        <div class="sbar-item">
+          <label><span>Data Analysis</span><span>82%</span></label>
+          <div class="sbar-track"><div class="sbar-fill sa" data-w="82"></div></div>
+        </div>
+        <div class="sbar-item">
+          <label><span>HTML / CSS</span><span>85%</span></label>
+          <div class="sbar-track"><div class="sbar-fill sc" data-w="85"></div></div>
+        </div>
+        <div class="sbar-item">
+          <label><span>JavaScript</span><span>75%</span></label>
+          <div class="sbar-track"><div class="sbar-fill sm" data-w="75"></div></div>
+        </div>
+        <div class="sbar-item">
+          <label><span>Finance &amp; Stats</span><span>78%</span></label>
+          <div class="sbar-track"><div class="sbar-fill sg" data-w="78"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════ SKILLS ══════════ -->
+<section id="skills" class="section">
+  <h2 class="sec-title"><span>Skill Constellation</span></h2>
+  <div class="skills-g">
+
+    <div class="skcard rev" data-delay="0">
+      <span class="skemoji">🐍</span>
+      <div class="sk-circ">
+        <svg viewBox="0 0 100 100" width="100" height="100">
+          <circle class="cbg" cx="50" cy="50" r="40"/>
+          <circle class="cfill" cx="50" cy="50" r="40" stroke="#00f5ff" data-pct="88"/>
+        </svg>
+        <div class="clabel" style="color:var(--cyan)">88%</div>
+      </div>
+      <div class="skname">Python</div>
+    </div>
+
+    <div class="skcard rev" data-delay="80">
+      <span class="skemoji">📊</span>
+      <div class="sk-circ">
+        <svg viewBox="0 0 100 100" width="100" height="100">
+          <circle class="cbg" cx="50" cy="50" r="40"/>
+          <circle class="cfill" cx="50" cy="50" r="40" stroke="#c724ff" data-pct="82"/>
+        </svg>
+        <div class="clabel" style="color:var(--aurora)">82%</div>
+      </div>
+      <div class="skname">Data Analysis</div>
+    </div>
+
+    <div class="skcard rev" data-delay="160">
+      <span class="skemoji">🌐</span>
+      <div class="sk-circ">
+        <svg viewBox="0 0 100 100" width="100" height="100">
+          <circle class="cbg" cx="50" cy="50" r="40"/>
+          <circle class="cfill" cx="50" cy="50" r="40" stroke="#4d6fff" data-pct="85"/>
+        </svg>
+        <div class="clabel" style="color:var(--electric)">85%</div>
+      </div>
+      <div class="skname">HTML / CSS</div>
+    </div>
+
+    <div class="skcard rev" data-delay="240">
+      <span class="skemoji">⚡</span>
+      <div class="sk-circ">
+        <svg viewBox="0 0 100 100" width="100" height="100">
+          <circle class="cbg" cx="50" cy="50" r="40"/>
+          <circle class="cfill" cx="50" cy="50" r="40" stroke="#ff2d78" data-pct="75"/>
+        </svg>
+        <div class="clabel" style="color:var(--magenta)">75%</div>
+      </div>
+      <div class="skname">JavaScript</div>
+    </div>
+
+    <div class="skcard rev" data-delay="320">
+      <span class="skemoji">💰</span>
+      <div class="sk-circ">
+        <svg viewBox="0 0 100 100" width="100" height="100">
+          <circle class="cbg" cx="50" cy="50" r="40"/>
+          <circle class="cfill" cx="50" cy="50" r="40" stroke="#ffb800" data-pct="78"/>
+        </svg>
+        <div class="clabel" style="color:var(--gold)">78%</div>
+      </div>
+      <div class="skname">Finance</div>
+    </div>
+
+    <div class="skcard rev" data-delay="400">
+      <span class="skemoji">📐</span>
+      <div class="sk-circ">
+        <svg viewBox="0 0 100 100" width="100" height="100">
+          <circle class="cbg" cx="50" cy="50" r="40"/>
+          <circle class="cfill" cx="50" cy="50" r="40" stroke="#00f5ff" data-pct="80"/>
+        </svg>
+        <div class="clabel" style="color:var(--cyan)">80%</div>
+      </div>
+      <div class="skname">Statistics</div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════ PROJECTS ══════════ -->
+<section id="projects" class="section">
+  <h2 class="sec-title"><span>Mission Log</span></h2>
+  <div class="proj-g">
+
+    <div class="pcard rev" data-delay="0">
+      <div class="ptag">★ FEATURED</div>
+      <h3 class="ptitle">🌌 Cosmic Data Dashboard</h3>
+      <p class="pdesc">An interactive analytics dashboard visualising real-world datasets with dynamic charts and filters built with Python and Plotly.</p>
+      <div class="ptechs"><span class="tpill">Python</span><span class="tpill">Pandas</span><span class="tpill">Plotly</span><span class="tpill">Dash</span></div>
+      <div class="plinks">
+        <a href="#" class="bsm bsmc">🚀 Live</a>
+        <a href="#" class="bsm bsmo">⌥ GitHub</a>
+      </div>
+    </div>
+
+    <div class="pcard rev" data-delay="100">
+      <div class="ptag">📈 FINANCE</div>
+      <h3 class="ptitle">💹 Stock Orbit Analyser</h3>
+      <p class="pdesc">A Python-powered stock market tool that scrapes live data, identifies trends with statistical models, and produces rich visualisations.</p>
+      <div class="ptechs"><span class="tpill">Python</span><span class="tpill">yFinance</span><span class="tpill">Matplotlib</span></div>
+      <div class="plinks">
+        <a href="#" class="bsm bsmc">🚀 Live</a>
+        <a href="#" class="bsm bsmo">⌥ GitHub</a>
+      </div>
+    </div>
+
+    <div class="pcard rev" data-delay="200">
+      <div class="ptag">🌐 WEB</div>
+      <h3 class="ptitle">⚡ Neural Web Portfolio</h3>
+      <p class="pdesc">A futuristic portfolio featuring canvas animations, WebGL shaders, and smooth scroll interactions — pure HTML, CSS &amp; JS.</p>
+      <div class="ptechs"><span class="tpill">HTML5</span><span class="tpill">CSS3</span><span class="tpill">Vanilla JS</span></div>
+      <div class="plinks">
+        <a href="#" class="bsm bsmc">🚀 Live</a>
+        <a href="#" class="bsm bsmo">⌥ GitHub</a>
+      </div>
+    </div>
+
+    <div class="pcard rev" data-delay="300">
+      <div class="ptag">📊 DATA SCIENCE</div>
+      <h3 class="ptitle">🔭 Predictive Nebula Model</h3>
+      <p class="pdesc">A machine learning model predicting academic performance using regression, engineered features, and cross-validation pipelines.</p>
+      <div class="ptechs"><span class="tpill">Scikit-Learn</span><span class="tpill">NumPy</span><span class="tpill">Seaborn</span></div>
+      <div class="plinks">
+        <a href="#" class="bsm bsmc">🚀 Live</a>
+        <a href="#" class="bsm bsmo">⌥ GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════ EDUCATION ══════════ -->
+<section id="education" class="section">
+  <h2 class="sec-title"><span>Star Map — Education</span></h2>
+  <div class="tline">
+
+    <div class="titem rev">
+      <div class="tnode"></div>
+      <div class="tcard">
+        <div class="tyear">2022 — PRESENT</div>
+        <div class="tschool">🎓 Bachelor of Science</div>
+        <div class="tdeg">Computer Science &amp; Statistics<br><span style="color:var(--cyan);font-size:.78rem">CGPA: 8.5 / 10</span></div>
+      </div>
+    </div>
+
+    <div class="titem rev" style="transition-delay:.15s">
+      <div class="tnode" style="border-color:var(--aurora);box-shadow:var(--gaur);animation-delay:-1s"></div>
+      <div class="tcard">
+        <div class="tyear">2020 — 2022</div>
+        <div class="tschool">📚 Higher Secondary School</div>
+        <div class="tdeg">Science — Physics, Chemistry, Maths, CS<br><span style="color:var(--aurora);font-size:.78rem">Score: 92%</span></div>
+      </div>
+    </div>
+
+    <div class="titem rev" style="transition-delay:.3s">
+      <div class="tnode" style="border-color:var(--magenta);box-shadow:var(--gmag);animation-delay:-2s"></div>
+      <div class="tcard">
+        <div class="tyear">2018 — 2020</div>
+        <div class="tschool">🏫 Secondary School — SSLC</div>
+        <div class="tdeg">Tamil Nadu State Board<br><span style="color:var(--magenta);font-size:.78rem">Score: 95%</span></div>
+      </div>
+    </div>
+
+    <div class="titem rev" style="transition-delay:.45s">
+      <div class="tnode" style="border-color:var(--gold);box-shadow:var(--ggold);animation-delay:-3s"></div>
+      <div class="tcard">
+        <div class="tyear">2023</div>
+        <div class="tschool">🏅 Data Analysis with Python</div>
+        <div class="tdeg">Coursera / IBM Certification<br><span style="color:var(--gold);font-size:.78rem">Distinction</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════ CONTACT ══════════ -->
+<section id="contact" class="section">
+  <h2 class="sec-title"><span>Transmit Signal</span></h2>
+  <div class="contact-w">
+    <div class="cform rev" id="cform">
+      <div class="fg"><input type="text"  id="cname"  placeholder="🧑‍🚀 Your Name"  autocomplete="off"/></div>
+      <div class="fg"><input type="email" id="cemail" placeholder="📡 Your Email" autocomplete="off"/></div>
+      <div class="fg"><textarea id="cmsg" placeholder="🌌 Your message — transmit from any galaxy..."></textarea></div>
+      <button class="bsend" id="sendBtn">🚀 Launch Message</button>
+    </div>
+    <div class="fsuccess" id="cstat" aria-live="polite"></div>
+    <div class="socrow">
+      <a href="#" class="soclink" title="GitHub">🐙</a>
+      <a href="#" class="soclink" title="LinkedIn">💼</a>
+      <a href="#" class="soclink" title="Twitter">🐦</a>
+      <a href="#" class="soclink" title="Email">📧</a>
+      <a href="#" class="soclink" title="Instagram">📸</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Crafted with <span>✦</span> by <span>Yuvan Shakthi S</span> · Somewhere in the cosmos · 2025</p>
+</footer>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
